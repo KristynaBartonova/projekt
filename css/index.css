@@ -8,10 +8,6 @@ body {
   border-radius: 50%;
 }
 
-.text {
-  background-color: beige;
-}
-
 .icon img {
   max-height: 30px;
   margin-right: 20px;
@@ -48,13 +44,24 @@ h1 {
   position: relative;
   z-index: 99;
 }
-.header-home > .link {
+.header-home .link {
   width: 125px;
   margin-bottom: 25px;
   border-radius: 100%;
   transition: all 0.2s;
   box-shadow: 0;
   opacity: 1;
+}
+
+.description .link {
+  color: indigo;
+}
+
+.description .link:hover,
+.description .link:focus {
+  color: white;
+  background-color: indigo;
+  text-decoration: none;
 }
 
 .social-links {
