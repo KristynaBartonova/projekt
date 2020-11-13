@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: white;
   color: black;
 }
 
@@ -14,4 +14,87 @@ body {
 
 .icon img {
   max-height: 30px;
+  margin-right: 20px;
+}
+
+.medailonek {
+  width: 125px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-radius: 100%;
+  transition: all 0.2s;
+  box-shadow: 0;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #aaa;
+  width: 70%;
+  margin: 0 auto 30px;
+}
+
+.header-home {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+}
+.header-home > .link {
+  width: 125px;
+  margin-bottom: 25px;
+  border-radius: 100%;
+  transition: all 0.2s;
+  box-shadow: 0;
+  opacity: 1;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+.social-links > .link {
+  margin: 0;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+}
+.social-links > .link:hover > .icon {
+  fill: indigo;
+}
+.social-links > .link:hover:before {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  white-space: nowrap;
+}
+
+.social-links > .link:hover:after {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.social-links > .icon {
+  transition: all ease-in-out 0.2s;
+}
+
+.icon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  fill: #000;
+  text-align: center;
+  color: #000;
+  margin: 7px auto;
+}
+
+svg:not(:root) {
+  overflow: hidden;
 }
