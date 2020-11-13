@@ -3,11 +3,21 @@ body {
   color: black;
 }
 
-img {
+.uvod {
   max-height: 150px;
   border-radius: 50%;
 }
 
 .text {
   background-color: beige;
+}
+
+.icon img {
+  max-height: 30px;
+}
+
+.medailonek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
