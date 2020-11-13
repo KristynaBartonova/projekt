@@ -15,9 +15,3 @@ body {
 .icon img {
   max-height: 30px;
 }
-
-.medailonek {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
