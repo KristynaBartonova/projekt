@@ -113,4 +113,17 @@ svg:not(:root) {
   color: #aaa;
 }
 
+#div1 {
+  font-size: 1.5rem;
+  color:purple;
+  font-weight: 400;
+  padding:15px;
+}
 
+#testSipka {
+  display: inline-block;
+  width: 5vmin;
+  height: 5vmin;
+  text-align: center;
+  margin: 2px auto;
+}
